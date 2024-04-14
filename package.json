@@ -3,10 +3,16 @@
   "version": "1.0.50",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "bun run --watch src/index.ts"
+    "dev": "bun run --watch src/index.jsx"
   },
   "dependencies": {
-    "elysia": "latest"
+    "@elysiajs/html": "^1.0.2",
+    "bigint-buffer": "^1.1.5",
+    "bigint-crypto-utils": "^3.3.0",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.5",
+    "elysia": "latest",
+    "mysql2": "^3.9.4"
   },
   "devDependencies": {
     "bun-types": "latest"
