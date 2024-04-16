@@ -36,9 +36,6 @@ const IndexPage = () => {
               Register
             </button>
           </form>
-          <div id="realmlistContainer" class="mt-4 p-2 rounded">
-            <h2 class="text-lg font-bold">Realmlist Information</h2>
-          </div>
         </div>
       </body>
     </html>
