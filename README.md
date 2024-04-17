@@ -19,3 +19,6 @@ Docker and docker-compose.
 ```
 - run `docker-compose up -d` to start the server
 - Open http://localhost:3030/ with your browser to see the page.
+
+![Screenshot 2024-04-17 at 4 46 36 PM](https://github.com/EvilGenius13/acore-quick-registration/assets/93214149/6a9d7ed1-3cb7-477b-aa09-c2042c41fe88)
+![Screenshot 2024-04-17 at 4 47 14 PM](https://github.com/EvilGenius13/acore-quick-registration/assets/93214149/22c89aad-4540-4bd3-bbdc-be931d58a379)
