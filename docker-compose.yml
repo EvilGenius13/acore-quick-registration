@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  acore-quick-reg:
+    image: aq
+    container_name: acore-reg
+    ports:
+      - 3030:3000
+    environment:
+      - DB_HOST=127.0.0.1
+      - DB_PORT=3306
+      - DB_USER=root
+      - DB_PASSWORD=password
+      - DB_DATABASE=acore_auth
+      - REALMLIST=realmlist1.example.com,realmlist2.example.com
